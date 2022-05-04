@@ -1,8 +1,8 @@
 <meta http-equiv="refresh" content="0; url='https://wenxiww.github.io/homepage/src/index.html'" />
 
+
 # Academic Responsive Template
 
-<img src="assets/banner.png" />
 
 The presented repository will have the source code for the webpage of the [Academic Responsive Template](https://github.com/opprDev/academic-responsive-template) project. The [Academic Responsive Template](https://github.com/opprDev/academic-responsive-template) is a free [Bootstrap-based theme](https://getbootstrap.com/) for academic purpose. Great for scholar and collegial landing pages, it is 100% mobile-friendly and looks amazing on any device. The template includes a lot of rich features and addons that you can use as a great starting point for your next [Bootstrap 3](https://getbootstrap.com/docs/3.3/) project. For our projects, we appreciate any kind of support. For the purpose, we are using this template from another real page. So please follow it as a [Demo](https://opprdev.github.io/art-jac) for sampling. If you feel that this repository was in any kind useful, please be free to [support us on patreon](https://www.patreon.com/oppr). Thank you for considering it.
 
