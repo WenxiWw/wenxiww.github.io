@@ -1,0 +1,1 @@
+This is a tutorial on installing optimization-based motion planner TrajOpt.
