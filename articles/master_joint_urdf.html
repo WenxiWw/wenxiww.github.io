@@ -27,13 +27,15 @@
 <span class="hljs-tag">&lt;<span class="hljs-name">limit</span> <span class="hljs-attr">effort</span>=<span class="hljs-string">"60"</span> <span class="hljs-attr">lower</span>=<span class="hljs-string">"0.0"</span> <span class="hljs-attr">upper</span>=<span class="hljs-string">"0.20"</span> <span class="hljs-attr">velocity</span>=<span class="hljs-string">"0.05"</span> /&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">dynamics</span> <span class="hljs-attr">damping</span>=<span class="hljs-string">"100.0"</span> /&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">joint</span>&gt;</span>
 </code></pre>
-<p><img src="../images/master_joint_urdf.png" alt="Visualization of the joint-link connection"></p>
+<p><img src="/images/master_joint_urdf.png" alt="Visualization of the joint-link connection"></p>
 <h1 id="visualization">Visualization</h1>
 <p>To generate the tree in pdf file:</p>
-<p><code>sudo apt-get install liburdfdom-tools
-urdf_to_graphiz robot.urdf</code></p>
+<pre><code class="lang-xml">sudo apt-<span class="hljs-keyword">get</span> install liburdfdom-tools
+<br>urdf_to_graphiz robot.urdf
+</code></pre>
 <p>To visualize the urdf in RVIZ: </p>
-<p><code>roslaunch urdf_tutorial display.launch model:=PATH_TO_URDF</code></p>
+<pre><code class="lang-xml">roslaunch urdf_tutorial <span class="hljs-keyword">display</span>.launch <span class="hljs-keyword">mode</span><span class="hljs-variable">l:</span>=PATH_TO_URDF
+</code></pre>
 <h1 id="useful-links-">Useful links:</h1>
 <p><a href="http://wiki.ros.org/urdf/XML/joint">http://wiki.ros.org/urdf/XML/joint</a></p>
 <p><a href="https://articulatedrobotics.xyz/tutorials/ready-for-ros/urdf/">https://articulatedrobotics.xyz/tutorials/ready-for-ros/urdf/</a></p>
