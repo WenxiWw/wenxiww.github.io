@@ -43,12 +43,16 @@ Prismatic joint:
 
 To generate the tree in pdf file:
 
-`sudo apt-get install liburdfdom-tools
-urdf_to_graphiz robot.urdf`
+```xml
+sudo apt-get install liburdfdom-tools
+urdf_to_graphiz robot.urdf
+```
 
 To visualize the urdf in RVIZ: 
 
-`roslaunch urdf_tutorial display.launch model:=PATH_TO_URDF`
+```xml
+roslaunch urdf_tutorial display.launch model:=PATH_TO_URDF
+```
 
 
 
